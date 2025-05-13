@@ -5,6 +5,7 @@ Summary: Gentoo's multi-purpose configuration and management tool
 License: GPLv2
 URL: https://gitweb.gentoo.org/proj/eselect.git
 Source0: %{name}-%{version}.tar.gz
+BuildArch: noarch
 BuildRequires: bash
 BuildRequires: make
 BuildRequires: libtool
