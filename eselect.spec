@@ -6,9 +6,7 @@ License: GPLv2
 URL: https://gitweb.gentoo.org/proj/eselect.git
 Source0: %{name}-%{version}.tar.gz
 BuildRequires: bash
-BuildRequires: rpm_macro(configure)
 BuildRequires: make
-BuildRequires: rpm_macro(make_install)
 BuildRequires: libtool
 
 %description
