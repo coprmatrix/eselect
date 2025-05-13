@@ -1,0 +1,14 @@
+<services>
+	<service name="obs_scm">
+		<param name="url">https://anongit.gentoo.org/git/proj/eselect.git</param>
+		<param name="scm">git</param>
+		<param name="versionformat">@PARENT_TAG@</param>
+		<param name="versionrewrite-pattern">eselect-(.*)</param>
+	</service>
+	<service name="set_version" />
+	<service name="tar" mode="buildtime" />
+	<service name="recompress" mode="buildtime">
+		<param name="compression">gz</param>
+		<param name="file">*.tar</param>
+	</service>
+</services>
